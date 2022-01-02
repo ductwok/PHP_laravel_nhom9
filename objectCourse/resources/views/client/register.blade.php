@@ -14,24 +14,24 @@
       <div class="form-container sign-up-container">
       <form method="post" action="client/login2/store">
         @csrf
-          <h1>Create Account</h1>
+          <h1>Tạo Tài Khoản Mới</h1>
           <div class="social-container">
             <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
             <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
           </div>
-            <input type="text" placeholder="Name" name="name" value="">
+            <input type="text" placeholder="Tên" name="name" value="">
        
             <input type="email" placeholder="Email" name="email" value="">    
     
-            <input type="text" placeholder="Phone" name="phone" value="">
+            <input type="text" placeholder="Số điện thoại" name="phone" value="">
   
-            <input type="password" placeholder="password" name="password" value="">
+            <input type="password" placeholder="Mật Khẩu" name="password" value="">
      
-            <input type="password" placeholder="Confirm Password" />
+            <input type="password" placeholder="Nhập lại mật khẩu" />
           <br />
             <!-- <button type="submit" class=""><a style="text-decoration: none; color:white;">Sign up</a></button> -->
-            <button type="submit">Submit</button>
+            <button type="submit">Tạo!</button>
         </form>
       </div>
       <div class="form-container sign-in-container">

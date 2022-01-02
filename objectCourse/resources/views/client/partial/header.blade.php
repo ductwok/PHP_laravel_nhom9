@@ -11,6 +11,7 @@
             <li><a href="{{ route('client.home') }}">Trang chủ</a></li>
             <li><a href="{{ route('client.about') }}">Về E-SHARE</a></li>
             <li><a href="{{ route('client.contact') }}">Liên hệ</a></li>
+            <li><a href="{{ route('client.contact') }}">Chủ đề</a></li>
             <li>
                 @if (auth()->check())
                     <a href="#"><i class="fas fa-user"></i></a>
