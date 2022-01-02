@@ -15,7 +15,7 @@
         </div>
   
         <div class="content">
-          <h3>E-learning thân thiện, dễ tiếp cận, tiếp thu</h3>
+          <h3>E-SHARE thân thiện, dễ tiếp cận, tiếp thu</h3>
           <p>
             <span style="color: #fa1d86; font-weight: bold">E-SHARE</span> sẽ
             đồng hành cùng bạn xuyên suốt quá trình học tập và làm việc của bạn

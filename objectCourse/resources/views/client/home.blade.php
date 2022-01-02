@@ -27,7 +27,7 @@
           </div>
           <div class="content">
             <span>{{ $item_course->name }}</span>
-            <a href="#"><h3>Giảng viên : {{ $item_course->user->name }}</h3></a>
+            <a href="#"><h3>Người tạo : {{ $item_course->user->name }}</h3></a>
             <p>{{ $item_course->desc }}</p>
             <a href="{{ route('client.course_single',['id' => $item_course->id ]) }}" class="btn">Xem thêm</a>
             <div class="icons">

@@ -42,7 +42,7 @@
                                 Trạng thái
                             </th>
                             <th class="col-2">
-                                Giảng viên
+                                Người thêm
                             </th>
 
                             <th class="col-1">

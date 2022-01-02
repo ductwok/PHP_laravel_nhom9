@@ -48,9 +48,9 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="inputDescription">Giảng viên</label>
+            <label for="inputDescription">người thêm</label>
             <select class="form-control" id="inputstatus" name="user_id">
-              <option value="">Chọn giảng viên</option>
+              <option value="">Chọn người thêm</option>
               @foreach ($data_users as $item_user)
                 <option value="{{ $item_user->id }}" {{ $item_user->id == $item_course->user_id ? "selected" : "" }}>{{ $item_user->name }}</option>                    
               @endforeach
