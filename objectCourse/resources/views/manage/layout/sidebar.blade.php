@@ -47,8 +47,20 @@
                 <i class="right fas fa-angle-left"></i>
               </p>
             </a>
+
             <ul class="nav nav-treeview">
-          <li class="nav-item">
+              <li class="nav-item">
+                <a href="{{ route('admin.dashboard') }}" class="nav-link active">
+                  <i class="far fa-circle nav-icon"></i>
+                  <p>Dashboard v1</p>
+                </a>
+              </li>
+
+            </ul>
+
+            <ul class="nav nav-treeview">
+ 
+              <li class="nav-item">
             <a href="#" class="nav-link">
               <i class="nav-icon fas fa-table"></i>
               <p>
@@ -81,10 +93,6 @@
               </li>
             </ul>
           </li>
-          
-          
-         
-          
         </ul>
       </nav>
       <!-- /.sidebar-menu -->

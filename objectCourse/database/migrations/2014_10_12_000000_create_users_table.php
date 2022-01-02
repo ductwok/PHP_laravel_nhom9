@@ -19,7 +19,7 @@ class CreateUsersTable extends Migration
             $table->string('email')->unique();
             $table->string('address');
             $table->string('phone')->unique();
-            $table->string('image_path');
+            $table->string('image_path')->nullable();
             $table->string('is_admin')->default(0);
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');

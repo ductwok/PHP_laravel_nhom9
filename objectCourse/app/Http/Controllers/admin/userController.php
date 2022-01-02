@@ -55,15 +55,13 @@ class userController extends Controller
         return view('admin.users.edit',compact('item_user'));
     }
     public function update(Request $request,$id){
-        $check_account = $this->users->where('email',$request->email)->get();
-        if(!count($check_account)){
             $arr_account = array(
                 'name' => $request->name,
                 'address' => $request->address,
                 'email' => $request->email,
                 'is_admin' =>$request->is_admin,
-                'phone' => $request->phone,
-                'password' => Hash::make($request->password)
+                'phone' => $request->phone
+                // 'password' => Hash::make($request->password)
             );
             if($request->hasFile('image')){
                 $file_name =  Str::random(20).'.'. $request->file('image')->extension();
@@ -73,10 +71,6 @@ class userController extends Controller
             $this->users->find($id)->update($arr_account);
             $edit_user = $this->users->find($id);
             return redirect()->route('user.index')->with('message','Cập nhật thành công tài khoản "'.$edit_user->name.'" !');
-                       
-        }else{
-            return redirect()->route('user.edit',['id' => $id])->with('message','Email đã được sử dụng !');
-        }
     }
     public function delete(Request $request){
         $item_users = $this->users->find($request->id);
