@@ -13,15 +13,15 @@
             <div class="icons">
                 <i class="fas fa-phone"></i>
                 <h3>Số điện thoại</h3>
-                <p>+84 99 999 999</p>
-                <p>+84 88 888 888</p>
+                <p>+84 77 676 3650</p>
+                
             </div>
 
             <div class="icons">
                 <i class="fas fa-envelope"></i>
                 <h3>Email</h3>
-                <p>elearning@gmail.com</p>
-                <p>elearning-supporter@gmail.com</p>
+                <p>eshare@gmail.com</p>
+                <p>eshare-supporter@gmail.com</p>
             </div>
 
             <div class="icons">

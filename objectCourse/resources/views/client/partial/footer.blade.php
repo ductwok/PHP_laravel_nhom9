@@ -21,13 +21,10 @@
       <div class="box">
         <h3>Theo dõi chúng tôi</h3>
         <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
-        <a href="#"> <i class="fab fa-github"></i> Github </a>
-        <a href="#"> <i class="far fa-envelope"></i> elearning@gmail.com </a>
+        <a href="https://github.com/ductwok/PHP_laravel_nhom9/tree/main/objectCourse"> <i class="fab fa-github"></i> Github </a>
+        <a href="#"> <i class="far fa-envelope"></i> eshare@gmail.com </a>
       </div>
     </div>
 
-    <div class="credit">
-      Được thiết kế bởi <span>E-learning designer</span> | Sở hữu tất cả bản
-      quyền!
-    </div>
+    
   </section>
