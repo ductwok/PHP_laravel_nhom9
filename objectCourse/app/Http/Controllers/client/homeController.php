@@ -19,9 +19,14 @@ class homeController extends Controller
         return view('client.home',compact('data_course','course_footer'));
     }
     public function course_single($id){
-        $course_footer = $this->course->take(3)->get();
-        $item_course = $this->course->find($id);
-        return view('client.course-3',compact('item_course','course_footer'));
+        if (auth()->check()) {
+            $course_footer = $this->course->take(3)->get();
+            $item_course = $this->course->find($id);
+            return view('client.course-3',compact('item_course','course_footer'));
+        }else{
+            return redirect()->route('logins.form');
+        }
+        
     }
     public function about(){
         $course_footer = $this->course->take(3)->get();

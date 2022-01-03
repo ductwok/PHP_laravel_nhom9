@@ -18,29 +18,29 @@
       <div class="form-container sign-up-container">
       <form>
         @csrf
-          <h1>Create Account</h1>
+          <h1>Đăng Ký</h1>
           {{-- <div class="social-container">
             <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
             <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
             <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
           </div> --}}
-            <input type="text" placeholder="Name" class="reg_name">     
+            <input type="text" placeholder="Tên" class="reg_name">     
        
             <input type="email" placeholder="Email" class="reg_email">    
     
-            <input type="text" placeholder="Phone" class="reg_phone">
+            <input type="text" placeholder="Số điện thoại" class="reg_phone">
 
-            <input type="text" placeholder="Address" class="reg_address">
+            <input type="text" placeholder="Địa chỉ" class="reg_address">
   
-            <input type="password" placeholder="password" class="reg_password">
+            <input type="password" placeholder="Mật khẩu" class="reg_password">
      
-            <input type="password" placeholder="Confirm Password" class="reg_password2">
+            <input type="password" placeholder="Nhập lại mật khẩu" class="reg_password2">
 
             <div class="message_pass"></div>
             <input type="hidden" class="reg_image" value="https://pbs.twimg.com/profile_images/661849802808926209/iTJBkswa_400x400.jpg">
           <br />
             <!-- <button type="submit" class=""><a style="text-decoration: none; color:white;">Sign up</a></button> -->
-            <button class="sub_register" data-url="{{ route('logins.register') }}">Submit</button>
+            <button class="sub_register" data-url="{{ route('logins.register') }}">Tạo!</button>
         </form>
       </div>
       <div class="form-container sign-in-container">
