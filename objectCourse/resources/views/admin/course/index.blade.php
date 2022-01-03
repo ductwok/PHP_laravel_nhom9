@@ -71,9 +71,9 @@
                                     </td>
                                     <td>
                                         @if ($item_course->status == 0)
-                                            <p class="text-danger">Block</p>
+                                            <p class="text-danger">Đóng</p>
                                         @else
-                                            <p class="text-success">Open</p>
+                                            <p class="text-success">Mở</p>
                                         @endif
                                     </td>
                                     <td>

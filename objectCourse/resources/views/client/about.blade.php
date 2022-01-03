@@ -3,8 +3,8 @@
       <!-- header section ends -->
 
       <section class="heading">
-        <h3>VỀ E-LEARNING</h3>
-        <p><a href="{{ route('client.home') }}">Trang Chủ >></a> VỀ E-SHARE</p>
+        <h3>VỀ I-SHARE</h3>
+        <p><a href="{{ route('client.home') }}">Trang Chủ >></a> VỀ I-SHARE</p>
       </section>
   
       <!-- about section starts  -->
@@ -15,9 +15,9 @@
         </div>
   
         <div class="content">
-          <h3>E-SHARE thân thiện, dễ tiếp cận, tiếp thu</h3>
+          <h3>I-SHARE thân thiện, dễ tiếp cận, tiếp thu</h3>
           <p>
-            <span style="color: #fa1d86; font-weight: bold">E-SHARE</span> sẽ
+            <span style="color: #fa1d86; font-weight: bold">I-SHARE</span> sẽ
             đồng hành cùng bạn xuyên suốt quá trình học tập và làm việc của bạn
           </p>
           <a href="{{ route('client.home') }}" class="btn">Bắt đầu học nào!</a>

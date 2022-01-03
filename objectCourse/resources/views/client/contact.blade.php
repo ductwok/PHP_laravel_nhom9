@@ -20,8 +20,8 @@
             <div class="icons">
                 <i class="fas fa-envelope"></i>
                 <h3>Email</h3>
-                <p>eshare@gmail.com</p>
-                <p>eshare-supporter@gmail.com</p>
+                <p>ishare@gmail.com</p>
+                <p>ishare-supporter@gmail.com</p>
             </div>
 
             <div class="icons">

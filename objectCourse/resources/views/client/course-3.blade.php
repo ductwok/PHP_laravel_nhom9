@@ -6,7 +6,7 @@
     <!-- header section ends -->
     <section class="heading">
         <h3>KHÓA HỌC {{ $item_course->name }}</h3>
-        <p><a href="{{ route('client.home') }}">Trang Chủ >></a> VIDEO</p>
+        <p><a href="{{ route('client.home') }}">Trang Chủ >></a> Bài Giảng</p>
     </section>
 
     <!-- course-3 section starts  -->

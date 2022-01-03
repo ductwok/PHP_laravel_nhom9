@@ -35,8 +35,8 @@
               <div class="form-group">
                 <label for="inputstatus">Trạng thái</label>
                 <select class="form-control" id="inputstatus" name="status">
-                  <option value="0">Block</option>
-                  <option value="1" selected>Open</option>
+                  <option value="0">Đóng</option>
+                  <option value="1" selected>Mở</option>
                 </select>
               </div>
               <div class="form-group">

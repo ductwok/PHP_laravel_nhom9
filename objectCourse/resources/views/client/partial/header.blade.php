@@ -1,7 +1,7 @@
 <header class="header">
 
     <a href="{{ route('client.home') }}" class="logo">
-        <i class="fas fa-graduation-cap"></i> E-SHARE
+        <i class="fas fa-graduation-cap"></i> I-SHARE
     </a>
 
     <div id="menu-btn" class="fas fa-bars"></div>
@@ -9,7 +9,7 @@
     <nav class="navbar">
         <ul>
             <li><a href="{{ route('client.home') }}">Trang chủ</a></li>
-            <li><a href="{{ route('client.about') }}">Về E-SHARE</a></li>
+            <li><a href="{{ route('client.about') }}">Về I-SHARE</a></li>
             <li><a href="{{ route('client.contact') }}">Liên hệ</a></li>
             <li><a href="{{ route('client.contact') }}">Chủ đề</a></li>
             <li>

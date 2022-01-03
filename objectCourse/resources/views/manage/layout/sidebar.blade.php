@@ -24,14 +24,14 @@
 
       <!-- SidebarSearch Form -->
       <div class="form-inline">
-        <div class="input-group" data-widget="sidebar-search">
+        {{-- <div class="input-group" data-widget="sidebar-search">
           <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
           <div class="input-group-append">
             <button class="btn btn-sidebar">
               <i class="fas fa-search fa-fw"></i>
             </button>
           </div>
-        </div>
+        </div> --}}
       </div>
 
       <!-- Sidebar Menu -->
@@ -52,7 +52,7 @@
               <li class="nav-item">
                 <a href="{{ route('admin.dashboard') }}" class="nav-link active">
                   <i class="far fa-circle nav-icon"></i>
-                  <p>Dashboard v1</p>
+                  <p>Thống kê</p>
                 </a>
               </li>
 
