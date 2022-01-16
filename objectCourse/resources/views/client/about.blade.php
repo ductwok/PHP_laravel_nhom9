@@ -3,7 +3,7 @@
       <!-- header section ends -->
 
       <section class="heading">
-        <h3>VỀ I-SHARE</h3>
+        <h3 name= title>VỀ I-SHARE</h3>
         <p><a href="{{ route('client.home') }}">Trang Chủ >></a> VỀ I-SHARE</p>
       </section>
   
