@@ -44,7 +44,7 @@ class userController extends Controller
                     $arr_account['image_path'] = Storage::url($store_iamge);
                 }
                 $new_user = $this->users->create($arr_account);
-                return redirect()->route('user.index')->with('message','Thêm thành công tài khoản "'.$new_user->name.'" !');
+                return redirect()->route('user.index')->with('message','Thêm thành công tài khoản '.$new_user->name.' !');
             }           
         }else{
             return redirect()->route('user.create')->with('message','Email đã được sử dụng !');
