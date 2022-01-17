@@ -6,7 +6,7 @@
         <a href="{{ route('client.about') }}">
           <i class="fas fa-arrow-right"></i> Về I-SHARE
         </a>
-        <a href="{{ route('client.contact') }}">
+        <a name = contact href="{{ route('client.contact') }}">
           <i class="fas fa-arrow-right"></i> Liên hệ
         </a>
       </div>
@@ -21,7 +21,7 @@
 
       <div class="box">
         <h3>Theo dõi chúng tôi</h3>
-        <a href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
+        <a name = facebook href="#"> <i class="fab fa-facebook-f"></i> Facebook </a>
         <a href="https://github.com/ductwok/PHP_laravel_nhom9/tree/main/objectCourse"> <i class="fab fa-github"></i> Github </a>
         <a href="#"> <i class="far fa-envelope"></i> ishare@gmail.com </a>
       </div>
