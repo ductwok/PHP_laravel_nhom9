@@ -2,8 +2,8 @@
     <div class="box-container">
       <div class="box">
         <h3>Khám phá</h3>
-        <a href="{{ route('client.home') }}"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
-        <a href="{{ route('client.about') }}">
+        <a name = home href="{{ route('client.home') }}"> <i class="fas fa-arrow-right"></i> Trang chủ </a>
+        <a name = about href="{{ route('client.about') }}">
           <i class="fas fa-arrow-right"></i> Về I-SHARE
         </a>
         <a name = contact href="{{ route('client.contact') }}">
