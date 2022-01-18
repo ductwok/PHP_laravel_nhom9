@@ -46,7 +46,7 @@ class courseController extends Controller
             $arr_course['image_path'] = Storage::url($store_iamge);
         }
         $new_course = $this->course->create($arr_course);
-        return redirect()->route('course.index')->with('message','thêm thành công khóa học "'.$new_course->name.'" !');
+        return redirect()->route('course.index')->with('message','thêm thành công khóa học '.$new_course->name.' !');
     }
     public function edit($id){
         $data_category = $this->category->all();

@@ -26,7 +26,7 @@ class categoryController extends Controller
             'desc' => $request->desc
         );
         $new_category = $this->category->create($arr_category);
-        return redirect()->route('category.index')->with('message','thêm thành công thể loại "'.$new_category->name.'" !');
+        return redirect()->route('category.index')->with('message','thêm thành công thể loại '.$new_category->name.' !');
     }
     public function edit($id){
         $item_category = $this->category->find($id);
@@ -39,13 +39,13 @@ class categoryController extends Controller
         );
         $this->category->find($id)->update($arr);
         $item_update = $this->category->find($id);
-        return redirect()->route('category.index')->with('message','Cập nhật thành công thể loại "'.$item_update->name.'"');
+        return redirect()->route('category.index')->with('message','Cập nhật thành công thể loại '.$item_update->name.'');
     }
     public function delete(Request $request){
         $item_category = $this->category->find($request->id);
         $item_category_name = $item_category->name;
         $this->category->find($request->id)->delete();
-        return '<span class="ml-4 text-success">Xóa thành công thể loại "'.$item_category_name.'" ! </span>';
+        return '<span class="ml-4 text-success">Xóa thành công thể loại '.$item_category_name.' ! </span>';
     }
 
 }

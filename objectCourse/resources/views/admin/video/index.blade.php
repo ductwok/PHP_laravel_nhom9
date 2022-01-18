@@ -1,6 +1,6 @@
 @extends('/manage/indexn')
 @section('content')
-    <h1 style="text-align: center;">Danh sách các Video của khóa học "{{ $item_course->name }}"</h1>
+    <h1 style="text-align: center;">Danh sách các Video của khóa học {{ $item_course->name }}</h1>
     <section class="content">
 
         <!-- Default box -->
